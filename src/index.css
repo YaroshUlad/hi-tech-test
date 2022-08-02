@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+body h3 {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.sign {
+    color: gray;
+}
+
+.time {
+    color: gray;
+    font-size: smaller;
+}
+
+.text {
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.notes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.notesWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pagination {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.nav button {
+    padding: 0;
+}
